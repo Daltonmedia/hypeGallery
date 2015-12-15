@@ -94,9 +94,10 @@ function register_entity_title_buttons($entity) {
 				$items['delete'] = array(
 					'text' => elgg_echo('delete'),
 					'href' => $entity->getURL('delete'),
-					'link_class' => 'elgg-button elgg-button-delete elgg-button-delete-entity elgg-requires-confirmation',
+					'link_class' => 'elgg-button elgg-button-delete elgg-button-delete-entity',
 					'data-guid' => $entity->guid,
-					'priority' => 1000
+					'priority' => 1000,
+                    'data-confirm' => elgg_echo('question:areyousure'),
 				);
 			}
 			break;
