@@ -539,49 +539,49 @@ function get_exif($entity) {
 			switch ($key) {
 
 				case 'Model' :
-				case 'LensInfo' :
-				case 'LensModel' :
-				case 'LensSerialNumber' :
-				case 'XResolution' :
-				case 'YResolution' :
-				case 'Copyright' :
-				case 'ImageDescription' :
-				case 'Software' :
-				case 'ModifyDate' :
+				//case 'LensInfo' :
+				//case 'LensModel' :
+				//case 'LensSerialNumber' :
+				//case 'XResolution' :
+				//case 'YResolution' :
+				//case 'Copyright' :
+				//case 'ImageDescription' :
+				//case 'Software' :
+				//case 'ModifyDate' :
 				case 'FNumber' :
 				case 'ExposureTime' :
 				case 'ISO' :
 				case 'ISOSpeedRatings' :
-				case 'SensitivityType' :
-				case 'SpectralSensitivity' :
-				case 'RecommendedExposureIndex' :
-				case 'DateTimeOriginal' :
-				case 'DateTimeDigitized' :
-				case 'CompressedBitsPerPixel' :
+				//case 'SensitivityType' :
+				//case 'SpectralSensitivity' :
+				//case 'RecommendedExposureIndex' :
+				//case 'DateTimeOriginal' :
+				//case 'DateTimeDigitized' :
+				//case 'CompressedBitsPerPixel' :
 				case 'ShutterSpeedValue' :
 				case 'ApertureValue' :
 				case 'BrightnessValue' :
-				case 'ExposureBiasValue' :
-				case 'MaxApertureValue' :
+				//case 'ExposureBiasValue' :
+				//case 'MaxApertureValue' :
 				case 'SubjectDistance' :
 				case 'FocalLength' :
-				case 'UserComment' :
-				case 'SubsecTime' :
-				case 'SubsecTimeOriginal' :
-				case 'SubsecTimeDigitized' :
-				case 'Color Space' :
-				case 'PixelXDimension' :
-				case 'PixelYDimension' :
+				//case 'UserComment' :
+				//case 'SubsecTime' :
+				//case 'SubsecTimeOriginal' :
+				//case 'SubsecTimeDigitized' :
+				//case 'Color Space' :
+				//case 'PixelXDimension' :
+				//case 'PixelYDimension' :
 				case 'FlashEnergy' :
-				case 'SpatialFrequencyResponse' :
-				case 'FocalPlaneXResolution' :
-				case 'FocalPlaneYResolution' :
-				case 'ExposureIndex' :
-				case 'SceneType' :
+				//case 'SpatialFrequencyResponse' :
+				//case 'FocalPlaneXResolution' :
+				//case 'FocalPlaneYResolution' :
+				//case 'ExposureIndex' :
+				//case 'SceneType' :
 				case 'DigitalZoomRatio' :
-				case 'FocalLengthIn35mmFilm' :
-				case 'DeviceSettingDescription' :
-				case 'ImageUniqueID' :
+				//case 'FocalLengthIn35mmFilm' :
+				//case 'DeviceSettingDescription' :
+				//case 'ImageUniqueID' :
 				case 'GPSAltitude' :
 					$tags[$key] = array(
 						'label' => elgg_echo("exif.$key"),
@@ -590,7 +590,7 @@ function get_exif($entity) {
 					);
 					break;
 
-				case 'ExifVersion' :
+				//case 'ExifVersion' :
 				case 'FlashpixVersion' :
 					$tags[$key] = array(
 						'label' => elgg_echo("exif.$key"),
@@ -599,19 +599,19 @@ function get_exif($entity) {
 					);
 					break;
 
-				case 'ExposureProgram' :
-				case 'ComponentsConfiguration' :
+				//case 'ExposureProgram' :
+				//case 'ComponentsConfiguration' :
 				case 'MeteringMode' :
 				case 'LightSource' :
 				case 'Flash' :
-				case 'Resolution Unit' :
-				case 'FocalPlaneResolutionUnit' :
+				//case 'Resolution Unit' :
+				//case 'FocalPlaneResolutionUnit' :
 				case 'SensingMethod' :
-				case 'CFAPattern' :
-				case 'CustomRendered' :
+				//case 'CFAPattern' :
+				//case 'CustomRendered' :
 				case 'ExposureMode' :
 				case 'WhiteBalance' :
-				case 'SceneCaptureType' :
+				//case 'SceneCaptureType' :
 				case 'GainControl' :
 				case 'Contrast' :
 				case 'Saturation' :
@@ -627,7 +627,7 @@ function get_exif($entity) {
 					}
 					break;
 
-				case 'SubjectArea' :
+				//case 'SubjectArea' :
 				case 'SubjectLocation' :
 					$tags[$key] = array(
 						'label' => elgg_echo("exif.$key"),
